@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <script src="index.js" defer></script>
+        <link href="index.css" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="main">
+            <h1>Generate a <br><span class="h1-span">random password</span></h1>
+            <p>Never user an insecure password again.</p>
+            <br>
+            <p class="instructions">Enter a number for the length of your password. 
+            <span class="instruction-max">Maximum 20 Characters.</span</p>
+            <br>
+            <input type="text" id="userDef" class="user-def">
+            
+            <button onclick="userImport()"><image class="icon-1" src="icons/icon-1.png" alt="thunder bolt">Generate Passwords</button>
+        </div>
+       
+        <div class="password-El">
+            <section class="password-list">
+                <span class="password"><image class="icon-2" src="icons/icon-2.png" alt="three dots"></span><br>
+                <span class="password"><image class="icon-2" src="icons/icon-2.png" alt="three dots"></span><br>
+            </section>
+            <section class="password-list">
+                <span class="password"><image class="icon-2" src="icons/icon-2.png" alt="three dots"></span><br>
+                <span class="password"><image class="icon-2" src="icons/icon-2.png" alt="three dots"></span>
+            </section>
+        </div>
+        
+    </body>
+</html>
